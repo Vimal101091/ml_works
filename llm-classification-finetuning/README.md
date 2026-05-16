@@ -2,6 +2,10 @@
 
 A machine learning project for classifying LLM competition outputs. The goal is to predict which model wins in head-to-head comparisons between LLMs.
 
+## Data Source
+
+Data from Kaggle: https://www.kaggle.com/competitions/llm-classification-2024
+
 ## Classes
 
 - `winner_model_a` - Model A wins
@@ -29,16 +33,13 @@ A machine learning project for classifying LLM competition outputs. The goal is 
 ## Files
 
 - `01_logistic_regression_baseline.ipynb` - Baseline model
-- `train.csv` - Training data
-- `test.csv` - Test data
 - `sample_submission.csv` - Submission format
 
 ## Usage
 
-Run the notebook in Kaggle or locally to generate predictions.
+Download data from Kaggle and run the notebook to generate predictions.
 
 ```bash
-# Install dependencies
 pip install pandas numpy scikit-learn scipy
 ```
 

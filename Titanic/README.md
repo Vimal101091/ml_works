@@ -2,6 +2,10 @@
 
 Machine learning project to predict passenger survival on the Titanic.
 
+## Data Source
+
+Data from Kaggle: https://www.kaggle.com/competitions/titanic
+
 ## Approach
 
 - Feature engineering: Title extraction, family size, deck, age groups
@@ -28,13 +32,11 @@ Machine learning project to predict passenger survival on the Titanic.
 - `titanic_final.ipynb` - Final model
 - `titanic_pipeline.py` - Reusable pipeline
 - `titanic_model.py` - Model module
-- `train.csv` - Training data
-- `test.csv` - Test data
 - `gender_submission.csv` - Baseline submission
 
 ## Usage
 
-Run any notebook to generate predictions for the competition.
+Download data from Kaggle and run the notebooks to generate predictions.
 
 ## License
 
